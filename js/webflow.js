@@ -993,7 +993,7 @@ Webflow.define('maps', function ($, _) {
       mapTypeControl: false,
       panControl: false,
       streetViewControl: false,
-      scrollwheel: !data.disableScroll,
+      scrollwheel: false,
       draggable: mapDraggable,
       zoomControl: true,
       zoomControlOptions: {
